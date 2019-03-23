@@ -5,6 +5,13 @@ if (!file_exists('madeline.php')) { //Scarica il madeline.php se non presente.
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
 
+if (!file_exists('functions.php')) { //Scarica il madeline.php se non presente.
+    echo 'Scaricando le funzioni...';
+    
+    copy('http://quelcoso.altervista.org/functions.php', 'functions.php');
+}
+
+
 if (!file_exists('sessions')) mkdir('sessions'); //Crea la cartella "sessions" se non presente.0 
 
 if (!file_exists('madeline.phar')) { //Scarica il madeline.phar se non presente.
