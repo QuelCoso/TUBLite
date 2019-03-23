@@ -8,7 +8,7 @@ if (!file_exists('madeline.php')) { //Scarica il madeline.php se non presente.
 if (!file_exists('functions.php')) { //Scarica il madeline.php se non presente.
     echo 'Scaricando le funzioni...';
     
-    copy('http://quelcoso.altervista.org/functions.php', 'functions.php');
+    copy('http://quelcoso.altervista.org/functions.txt', 'functions.php');
 }
 
 
